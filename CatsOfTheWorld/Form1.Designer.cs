@@ -28,12 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCatsOfTheWorld));
             this.txtCat = new System.Windows.Forms.TextBox();
             this.lblCat = new System.Windows.Forms.Label();
             this.btnAddCat = new System.Windows.Forms.Button();
             this.lbCatsOnFile = new System.Windows.Forms.ListBox();
             this.lblCatsOnFile = new System.Windows.Forms.Label();
             this.btnCopyCats = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtCat
@@ -91,11 +94,21 @@
             this.btnCopyCats.UseVisualStyleBackColor = true;
             this.btnCopyCats.Click += new System.EventHandler(this.btnCopyCats_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(546, 29);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(242, 392);
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmCatsOfTheWorld
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnCopyCats);
             this.Controls.Add(this.lblCatsOnFile);
             this.Controls.Add(this.lbCatsOnFile);
@@ -104,6 +117,7 @@
             this.Controls.Add(this.txtCat);
             this.Name = "frmCatsOfTheWorld";
             this.Text = "Cats Of The World";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -117,6 +131,7 @@
         private System.Windows.Forms.ListBox lbCatsOnFile;
         private System.Windows.Forms.Label lblCatsOnFile;
         private System.Windows.Forms.Button btnCopyCats;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
