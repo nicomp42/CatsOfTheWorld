@@ -1,6 +1,6 @@
 ﻿namespace CatsOfTheWorld
 {
-    partial class Form1
+    partial class frmCatsOfTheWorld
     {
         /// <summary>
         /// Required designer variable.
@@ -91,7 +91,7 @@
             this.btnCopyCats.UseVisualStyleBackColor = true;
             this.btnCopyCats.Click += new System.EventHandler(this.btnCopyCats_Click);
             // 
-            // Form1
+            // frmCatsOfTheWorld
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -102,8 +102,8 @@
             this.Controls.Add(this.btnAddCat);
             this.Controls.Add(this.lblCat);
             this.Controls.Add(this.txtCat);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmCatsOfTheWorld";
+            this.Text = "Cats Of The World";
             this.ResumeLayout(false);
             this.PerformLayout();
 

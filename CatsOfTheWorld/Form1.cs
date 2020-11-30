@@ -8,10 +8,10 @@ using System.Windows.Forms;
 
 namespace CatsOfTheWorld
 {
-    public partial class Form1 : Form
+    public partial class frmCatsOfTheWorld : Form
     {
         List<Cat> cats;
-        public Form1()
+        public frmCatsOfTheWorld()
         {
             InitializeComponent();
             cats = new List<Cat>();
