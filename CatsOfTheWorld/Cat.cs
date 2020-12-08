@@ -23,7 +23,7 @@ namespace CatsOfTheWorld
         }
         public String name
         {
-            get { return name; }
+            get { return mName; }
             set { mName = value; }
         }
     }
